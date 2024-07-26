@@ -1,0 +1,52 @@
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+    transition: 0.1s;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.mr-5{
+    margin-left: -5%;
+    margin-right: 5%;
+}
+
+.img-hover {
+    transition: transform 0.1s ease;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+.img-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.t-white{
+    color: white;    
+}
+.t-white:hover{
+    color: yellow !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+body{
+    background-color: black;
+}
+
